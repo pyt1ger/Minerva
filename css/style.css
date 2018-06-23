@@ -10,3 +10,37 @@
 body{
 	font-family: GeoSansLight;
 }
+
+#sidebar{
+	position:absolute;
+	min-width: 300px;
+	height: 100%;
+	background: #191919;
+	left:-300px;
+	transition: 0.8s;
+}
+
+#sidebar.active{
+	left:0px;
+}
+
+#sidebar ul li{
+	list-style: none;
+	color: #cc4747;
+	font-size: 20px;
+	padding: 20px 24px;
+	border-bottom: 1px solid #cc4747
+}
+
+#sidebar .toggleB{
+	position: absolute;
+	top:30px;
+	left:330px;
+}
+.toggleB span{
+	width: 30px;
+	height: 	4px;
+	background: #191919;
+	display: block;
+	margin-top: 4px;
+}
