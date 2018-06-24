@@ -30,6 +30,7 @@ body .current a{
 	background: #191919;
 	left:-300px;
 	transition: 0.8s;
+	z-index: 1;
 }
 
 #sidebar.active{
@@ -92,73 +93,153 @@ img {
 	top: 50%
 	left:50%;
 	width: 100%;
-	z-index: -1;
 }
-
-/* Password Bordered Form */
-form {
-	border: 3px solid #f1f1f1;
-}
-
-/* Full-width inputs */
-input[type=text], input[type=password] {
-	width: 100%;
-	padding: 12px 15px;
-	margin: 8px 0;
-	display: inline-block;
-	border: 1px solid #ccc;
-	box-sizing: border-box;
-	font-family: GeosansLight;
-	font-size: 18px;
-}
-
-/* Set button style */
-button {
-	background-color: #cc4747;
-	color: white;
-	padding: 14px 20px;
+/* Signup */
+body {
 	margin: 0;
-	border: none;
+	padding: 0;
+	background-color: #efefef;
+	font-size: 16px;
+	color: #777;
+	font-family: Pierce;
+	font-weight: 300;
+}
+
+#login-box {
+	position: relative;
+	margin: 5% auto;
+	height: 400px;
+	width: 600px;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.6);
+}
+.left-box {
+	position: absolute;
+	top: 0;
+	left: 0;
+	box-sizing: border-box;
+	padding: 40px;
+	width: 300px;
+	height: 400px;
+	background-color: #cc4747;
+}
+
+.h1 {
+	margin: 0 0 5px 0;
+	font-weight: 300;
+	font-family: GeosansLight;
+	font-size: 50px;
+	color: #272727;
+}
+
+.h2{
+	font-weight: 300;
+	font-family: GeosansLight;
+	font-size: 28px;
+	color: #272727;
+}
+
+input[type="text"],
+input[type="password"]
+{
+    display: block;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    padding: 4px;
+    width: 220px;
+    height: 32px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #aaa;
+    border-radius: 4px;
+    font-family: GeosansLight;
+    font-weight: 400;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.6);
+    font-size: 15px;
+    transition: 0.2s ease;
+}
+
+input[type="submit"] {
+	margin-bottom: 28px;
+	width:120px;
+	height: 32px;
+	background: #474747;
+	border:none;
+	border-radius: 4px;
+	color: #fff;
+	font-family: GeosansLight;
+	font-weight: 500;
+	text-transform: uppercase;
+	transition: 0.2s ease;
 	cursor: pointer;
-	width: 100%;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus
+{
+	background: #ff5722;
+	transition: .2s ease;
+}
+
+.right-box {
+	position: absolute;
+	top: 0;
+	right: 0;
+	box-sizing: border-box;
+	padding: 40px;
+	width: 300px;
+	height: 400px;
+	background-color: #474747;
+	background-size: cover; 
+	background-position: center;
+}
+
+.or {
+	position: absolute;
+	top:180px;
+	left: 280px;
+	width: 40px;
+	height: 40px;
+	background: #efefef;
+	border-radius: 50%;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.6);
+	line-height: 40px;
+	text-align: center;
 	font-family: GeosansLight;
 	font-size: 22px;
 }
-
-/* Add a hover effect for buttons */
-button:hover {
-	opacity: 0.8;
-}
-
-/* Extra style for cancel button */
-.cancelbtn {
-	width: auto;
-	padding: 10px 18px;
-	background-color: #cc4747;
+.right-box .signinwith {
+	display: block;
+	margin-bottom: 40px;
+	font-size: 35px;
+	color:#fff;
+	text-align: center;
+	text-shadow: 0 2px 4px rgba(0,0,0,0.6);
 	font-family: GeosansLight;
+
 }
 
-/* Forgot Password */
-span.psw {
-	float: right;
-	padding-top: 14px;
+button.social {
+	margin-bottom: 20px;
+	width: 220px;
+	height: 36px;
+	border: none;
+	border-radius: 4px;
+	color: #fff;
 	font-family: GeosansLight;
-	font-size: 24px;
+	font-size: 22px;
+	font-weight: 500;
+	transition: 0.2s ease;
+	cursor: pointer;
+     box-shadow:0 2px 4px rgba(0,0,0,0.6);
 }
 
-/*Change styles for span and cancel button on extra small screens */ 
-@media screen and (max-width: 300px) {
-	span.psw {
-		display: block;
-		float: none;
-	}
-	.cancelbtn {
-		width: 100%;
-	}
+.facebook {
+	background: #32508e;
+}
+.twitter {
+	background: #55acee;
 }
 
-/* Labels for Login */
-.container {
-	font-size: 24px;
-	font-family: GeosansLight;
+.google {
+	background: #dd4b39;
 }
