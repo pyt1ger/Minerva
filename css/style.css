@@ -1,6 +1,6 @@
 @font-face{
-	font-family: 'GeoSansLight';
-	src: url('./fonts/GeoSansLight.tff');
+	font-family: 'GeosansLight';
+	src: url('./fonts/GeosansLight.tff');
 }
 * {
 	margin: 0;
@@ -8,25 +8,19 @@
 }
 
 body{
-	font-family: GeoSansLight;
+	font-family: GeosansLight;
 }
 
-body a{
-	color:white;
-}
-
-body a{
-	color:white;
-	font-style: normal; 
-	font-weight: normal;
+a{
+	font-family: GeosansLight;
+	color: #cc4747;
 	text-decoration: none;
-	font-family: GeoSansLight;
+
 }
 body .current a{
- 	color:#cc4747;
+ 	color:#d8d8d8;
  	text-decoration: none;
- 	font-family: GeoSansLight;
- }
+}
 
 #sidebar{
 	position:absolute;
@@ -60,4 +54,23 @@ body .current a{
 	background: #191919;
 	display: block;
 	margin-top: 4px;
+}
+
+header{
+	position: static;
+	background:#b2b2b2;
+	color:#000000;
+	padding-top:10px;
+	padding-bottom: 10px; 
+	min-height: 65px;
+	border-bottom: #cc4747 3px solid;
+	font-family: GeosansLight;
+	font-size: 50px;
+	text-align: center;
+}
+
+img {
+	position:absolute;
+	top: 0;
+	right: 200px;
 }
