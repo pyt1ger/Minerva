@@ -11,6 +11,23 @@ body{
 	font-family: GeoSansLight;
 }
 
+body a{
+	color:white;
+}
+
+body a{
+	color:white;
+	font-style: normal; 
+	font-weight: normal;
+	text-decoration: none;
+	font-family: GeoSansLight;
+}
+body .current a{
+ 	color:#cc4747;
+ 	text-decoration: none;
+ 	font-family: GeoSansLight;
+ }
+
 #sidebar{
 	position:absolute;
 	min-width: 300px;
