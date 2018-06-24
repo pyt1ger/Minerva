@@ -1,24 +1,54 @@
 <!DOCTYPE html>
-<head>
+<html>
+	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width">
-		<meta name="description" content="Educational support for suffering Troy High School Students">
-		<meta name="author" content="Tyler Kim">
+		<meta name="description" content="Educational support for suffering Troy students.">
+		<meta name="author" content="Tyler Kim, Evan Deters">
 		<title>Minerva | Troy High School</title>
 			<link rel="stylesheet" href="./css/style.css">
+			<script src="./javascript/script.js"></script>
 	</head>
 	<body>
-		<header>
-			<div class="container">
-				<div id="branding">
-					<img src="img/minerva.jpg" alt="Minerva" style="width:250px;height:120px;">
-				</div>
-				<nav>
-					<ul>
-						<li><a href="index.html">Home</a></li>
-						<li><a href="about.html">About</a></li>
-						<li class = "current"><a href="login.html">Login</a></li>
-					</ul>
-				</nav>
+		<div id="sidebar">
+			<div class="toggleB" onclick="show()">	
+				<span></span>
+				<span></span>
+				<span></span>
 			</div>
-		</header>
+			<ul>
+				<li><a href="./biology.html">Biology</a></li>
+				<li><a href="./computerscience.html">Computer Science</a></li>
+				<li><a href="./chemistry.html">Chemistry</a></li>
+				<li><a href="./apeuro.html">AP Euro</a></li>
+				<li class="current"><a href="./login.html">Login</a></li>
+			</ul>
+
+		</div>
+	</body>
+	<header>
+		Login
+	</header>
+	<form action="action_page.php">
+
+		<div class="container">
+			<label for="uname"><b>Username</b></label>
+			<input type="text" placeholder="Enter Username" name="uname" required>
+
+			<label for="psw"><b>Password</b></label>
+			<input type="password" placeholder="Enter Password" name="psw" required>
+
+			<button type="submit">Login</button>
+			<label>
+				<input type="checkbox" checked="checked" name="remember"> Remember me
+			</label>
+		</div>
+
+		<div class="container" style="background-color: #f1f1f1">
+			<a href="./index.html">
+			<button type="button" class="cancelbtn">Cancel</button>
+			</a>
+			<span class="psw">Forgot <a1 href="#">password?</a1></span>
+		</div>
+	</form>
+</html>
