@@ -102,7 +102,7 @@ body .current a{
 /* Home Page Body */
 
 .homepage {
-	background-image: linear-gradient(#b2b2b2, #cc4747);
+	background-image: linear-gradient(#F8DABF, #EC5563);
 	min-height: 100%;
 	background-attachment: fixed;
 }
@@ -128,6 +128,6 @@ body .current a{
 	position: relative;
 	text-align: center;
 	font-family: GeosansLight;
-	font-size: 50px;
+	font-size: 35px;
 	color: #000;
 }
