@@ -69,13 +69,13 @@ body .current a{
 
 .Header{
 	position: static;
-	background:#b2b2b2;
+	background:#a2a2a2;
 	color:#000000;
-	padding-top:20px;
-	padding-bottom: 0px; 
+	padding-top:10px;
+	padding-bottom: 10px; 
 	min-height: 90px;
 	border-bottom: #000000 3px solid;
-	font-family: Pierce;
+	font-family: GeosansLight;
 	font-size: 50px;
 	text-align: center;
 
