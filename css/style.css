@@ -95,39 +95,6 @@ body .current a{
 	position: absolute;
 	transition: .5s ease;
 	top: 50%
-	left:50%;
+	left: 50%;
 	width: 100%;
-}
-
-/* Home Page Body */
-
-.homepage {
-	background-image: linear-gradient(#F8DABF, #EC5563);
-	min-height: 100%;
-	background-attachment: fixed;
-}
-
-.indexMain {
-	position: relative;
-	padding-top: 100px;
-	width: 100%;
-	height: auto;
-}
-
-.hmain {
-	position: relative;
-	top: -95px;
-	text-align: center;
-	font-family: GeosansLight;
-	font-size: 100px;
-	color: #000;
-}
-
-.pmain {
-	top: -105px;
-	position: relative;
-	text-align: center;
-	font-family: GeosansLight;
-	font-size: 35px;
-	color: #000;
 }
