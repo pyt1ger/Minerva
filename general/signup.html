@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<meta name="description" content="Educational support for suffering Troy students.">
+		<meta name="author" content="Tyler Kim, Evan Deters">
+		<title>Minerva | Troy High School</title>
+			<link rel="stylesheet" href="../css/style.css">
+			<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+			<script src="../javascript/script.js"></script>
+	</head>
+	<body>
+		<div id="sidebar">
+			<div class="toggleB" onclick="show()">	
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+			<ul>
+				<li><a href="./index.html"><i class="fa fa-home"></i></a></li>
+				<li><a href="../subjects/science/science.html">Science</a></li>
+				<li><a href="../subjects/computerscience/computerscience.html">Computer Science</a></li>
+				<li><a href="../subjects/histroy/history.html">History</a></li>
+				<li><a href="../subjects/english/english.html">English</a></li>
+				<li><a href="../subjects/foreignlanguage/foreignlanguage.html">Foreign Language</a></li>
+				<li><a href="./login.html">Login</a></li>
+				<li class="current"><a href="./signup.html">Signup</a></li>
+			</ul>
+
+		</div>
+	</body>
+	<header class="Header">
+		Signup
+	</header>
+	<body class="signupandlogin">
+		<div id="login-box">
+			<div class="left-box">
+				<h1 class="h1">Sign Up</h1>
+				<form>
+
+					<input type="text" name="username" placeholder="Username"/ required>
+					<input type="text" name="email" placeholder="Email"/required>
+					<input type="password" name="password" placeholder="Password"/required>
+					
+					<input type="password" name="retypepassword" placeholder="Retype Password"/required>
+
+					<input type="submit" name="signup-button" value="Sign Up"/>
+				</form>
+			</div>
+			<div class="right-box">
+				<span class="signinwith">Sign in with <br/>Social Network
+				</span>
+
+			 	<button class="social facebook">Log in with Facebook</button>
+			 	<button class="social twitter">Log in with Twitter</button>
+			 	<button class="social google">Log in with Google+</button>
+
+			 </div>
+			 	<div class="or">OR</div>
+		</div>
+	</body>
+</html>

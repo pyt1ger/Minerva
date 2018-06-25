@@ -17,6 +17,7 @@ a{
 	text-decoration: none;
 
 }
+
 body .current a{
  	color:#d8d8d8;
  	text-decoration: none;
@@ -29,6 +30,9 @@ body .current a{
 	background: #191919;
 	left:-300px;
 	transition: 0.8s;
+	border-right: 2px color:#191919;
+	border-radius: 10px;
+	z-index: 1;
 }
 
 #sidebar.active{
@@ -40,7 +44,6 @@ body .current a{
 	color: #cc4747;
 	font-size: 20px;
 	padding: 20px 24px;
-	border-bottom: 1px solid #000000
 }
 
 #sidebar .toggleB{
@@ -54,23 +57,226 @@ body .current a{
 	background: #191919;
 	display: block;
 	margin-top: 4px;
+	cursor: pointer;
+	border: 20px color:#191919;
+	border-radius: 20px;
+}
+.homeHeader {
+	position: static;
+	padding-top:20px;
+
 }
 
-header{
+.Header{
 	position: static;
 	background:#b2b2b2;
 	color:#000000;
-	padding-top:10px;
-	padding-bottom: 10px; 
-	min-height: 65px;
-	border-bottom: #cc4747 3px solid;
-	font-family: GeosansLight;
+	padding-top:20px;
+	padding-bottom: 0px; 
+	min-height: 90px;
+	border-bottom: #000000 3px solid;
+	font-family: Pierce;
 	font-size: 50px;
 	text-align: center;
+
 }
 
-img {
-	position:absolute;
+
+.button{
+	background-color: #cc4747;
+	border: #d8d8d8;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 0px;
+	cursor: pointer;
+	position: absolute;
+	transition: .5s ease;
+	top: 50%
+	left:50%;
+	width: 100%;
+}
+/* Signup and Login*/
+.signupandlogin {
+	margin: 0;
+	padding: 0;
+	background-color: #efefef;
+	font-size: 16px;
+	color: #777;
+	font-family: Pierce;
+	font-weight: 300;
+}
+
+#login-box {
+	position: relative;
+	margin: 5% auto;
+	height: 400px;
+	width: 600px;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.6);
+}
+.left-box {
+	position: absolute;
 	top: 0;
-	right: 200px;
+	left: 0;
+	box-sizing: border-box;
+	padding: 40px;
+	width: 300px;
+	height: 400px;
+	background-color: #cc4747;
+}
+
+.h1 {
+	margin: 0 0 5px 0;
+	font-weight: 300;
+	font-family: GeosansLight;
+	font-size: 50px;
+	color: #272727;
+}
+
+.h2{
+	font-weight: 300;
+	font-family: GeosansLight;
+	font-size: 28px;
+	color: #272727;
+}
+
+input[type="text"],
+input[type="password"]
+{
+    display: block;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    padding: 4px;
+    width: 220px;
+    height: 32px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #aaa;
+    border-radius: 4px;
+    font-family: GeosansLight;
+    font-weight: 400;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.6);
+    font-size: 15px;
+    transition: 0.2s ease;
+}
+
+input[type="submit"] {
+	margin-bottom: 28px;
+	width:120px;
+	height: 32px;
+	background: #474747;
+	border:none;
+	border-radius: 4px;
+	color: #fff;
+	font-family: GeosansLight;
+	font-weight: 500;
+	text-transform: uppercase;
+	transition: 0.2s ease;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus
+{
+	background: #ff5722;
+	transition: .2s ease;
+}
+
+.right-box {
+	position: absolute;
+	top: 0;
+	right: 0;
+	box-sizing: border-box;
+	padding: 40px;
+	width: 300px;
+	height: 400px;
+	background-color: #474747;
+	background-size: cover; 
+	background-position: center;
+}
+
+.or {
+	position: absolute;
+	top:180px;
+	left: 280px;
+	width: 40px;
+	height: 40px;
+	background: #efefef;
+	border-radius: 50%;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.6);
+	line-height: 40px;
+	text-align: center;
+	font-family: GeosansLight;
+	font-size: 22px;
+}
+.right-box .signinwith {
+	display: block;
+	margin-bottom: 40px;
+	font-size: 35px;
+	color:#fff;
+	text-align: center;
+	text-shadow: 0 2px 4px rgba(0,0,0,0.6);
+	font-family: GeosansLight;
+
+}
+
+button.social {
+	margin-bottom: 20px;
+	width: 220px;
+	height: 36px;
+	border: none;
+	border-radius: 4px;
+	color: #fff;
+	font-family: GeosansLight;
+	font-size: 22px;
+	font-weight: 500;
+	transition: 0.2s ease;
+	cursor: pointer;
+    box-shadow:0 2px 4px rgba(0,0,0,0.6);
+}
+
+.facebook {
+	background: #32508e;
+}
+.twitter {
+	background: #55acee;
+}
+
+.google {
+	background: #dd4b39;
+}
+
+/* Home Page Body */
+
+.homepage {
+	background-image: linear-gradient(#b2b2b2, #cc4747);
+	min-height: 100%;
+	background-attachment: fixed;
+}
+
+.indexMain {
+	position: relative;
+	padding-top: 100px;
+	width: 100%;
+	height: auto;
+}
+
+.hmain {
+	position: relative;
+	top: -95px;
+	text-align: center;
+	font-family: GeosansLight;
+	font-size: 100px;
+	color: #000;
+}
+
+.pmain {
+	top: -105px;
+	position: relative;
+	text-align: center;
+	font-family: GeosansLight;
+	font-size: 50px;
+	color: #000;
 }
