@@ -61,11 +61,6 @@ body .current a{
 	border: 20px color:#191919;
 	border-radius: 20px;
 }
-.homeHeader {
-	position: static;
-	padding-top:20px;
-
-}
 
 .Header{
 	position: static;
@@ -98,3 +93,5 @@ body .current a{
 	left: 50%;
 	width: 100%;
 }
+
+
