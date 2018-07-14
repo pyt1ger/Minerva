@@ -65,11 +65,6 @@ body .current a{
 	border: 20px color:#191919;
 	border-radius: 20px;
 }
-.homeHeader {
-	position: static;
-	padding-top:20px;
-
-}
 
 .Header{
 	position: static;
@@ -103,6 +98,7 @@ body .current a{
 	width: 100%;
 }
 
+<<<<<<< HEAD
 a
 {
   text-decoration: none;
@@ -236,3 +232,6 @@ a:hover
 {
   transform: none;
 }
+=======
+
+>>>>>>> cff8e68dab563229ea1c80d481f7c4cccafcd59a

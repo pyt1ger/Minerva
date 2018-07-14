@@ -63,7 +63,7 @@ input[type="password"]
 }
 
 input[type="submit"] {
-	margin-bottom: 5px;
+	margin-bottom: 12px;
 	width:120px;
 	height: 32px;
 	background: #474747;
