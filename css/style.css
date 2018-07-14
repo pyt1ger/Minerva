@@ -68,7 +68,8 @@ body .current a{
 
 .Header{
 	position: static;
-	background:#a2a2a2;
+	background:#c2c2c2;
+	opacity: .7;
 	color:#000000;
 	padding-top:10px;
 	padding-bottom: 10px; 
