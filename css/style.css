@@ -232,6 +232,7 @@ a:hover
   opacity: 1;
   transform: rotate(45deg) translate(-2px, -1px);
   background: #232323;
+  position: fixed;
 }
 
 
@@ -249,7 +250,7 @@ a:hover
 
 #menu
 {
-  	position: absolute;
+  	position: fixed;
 	min-width: 250px;
 	height: 100%;
   	margin: -100px 0 0 -50px;
