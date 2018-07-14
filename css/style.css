@@ -18,6 +18,31 @@ a{
 
 }
 
+.accordion {
+	font-family: GeosansLight;
+	color: #cc4747;
+    background-color: #4c4c4c;
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    transition: 0.4s;
+    font-size: 20px;
+}
+
+.active, .accordion:hover {
+    background-color: #4c4c4c; 
+}
+
+.panel {
+    padding: 0 18px;
+    display: none;
+    background-color: #4c4c4c;
+    overflow: hidden;
+    font-size: 20px;
+}
+
 body .current a{
  	color:#d8d8d8;
  	text-decoration: none;
@@ -205,14 +230,14 @@ a:hover
 #menu
 {
   	position: absolute;
-	min-width: 300px;
+	min-width: 250px;
 	height: 100%;
   	margin: -100px 0 0 -50px;
   	padding: 50px;
   	padding-top: 125px;
-
+  	padding-bottom: 100%;
   
-  	background: #fff;
+  	background: #4c4c4c;
   
  	transform-origin: 0% 0%;
   	transform: translate(-100%, 0);
