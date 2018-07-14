@@ -32,7 +32,8 @@ a{
 }
 
 .active, .accordion:hover {
-    background-color: #4c4c4c; 
+    background-color: #4c4c4c;
+    color: tomato; 
 }
 
 .panel {
@@ -232,7 +233,7 @@ a:hover
   opacity: 1;
   transform: rotate(45deg) translate(-2px, -1px);
   background: #232323;
-  position: fixed;
+  position: relative;
 }
 
 
