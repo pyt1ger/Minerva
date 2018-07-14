@@ -1,6 +1,6 @@
 @font-face{
 	font-family: 'GeosansLight';
-	src: url('./fonts/GeosansLight.tff');
+	src: url('../fonts/GeosansLight.tff');
 }
 * {
 	margin: 0;
