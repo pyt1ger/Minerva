@@ -281,3 +281,5 @@ a:hover
   transform: none;
 }
 
+html{overflow-x:hidden}
+

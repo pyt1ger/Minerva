@@ -7,33 +7,40 @@
 		<meta name="author" content="Tyler Kim, Evan Deters">
 		<title>Minerva | Troy High School</title>
 			<link rel="stylesheet" href="../../css/style.css">
-			<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 			<script src="../../javascript/script.js"></script>
 	</head>
 	<body>
-		<div id="sidebar">
-			<div class="toggleB" onclick="show()">	
-				<span></span>
-				<span></span>
-				<span></span>
-			</div>
-			<ul>
-				<li><a href="../../general/index.html"><i class="fa fa-home"></i></a></li>
-				<li><a href="../computerscience/computerscience.html">Computer Science</a></li>
-				<li><a href="../english/english.html">English</a></li>
-				<li><a href="../foreignlanguage/foreignlanguage.html">Foreign Language</a></li>
-				<li class="current"><a href="../history/history.html">History</a></li>
-				<li><a href="../math/math.html">Math</a></li>
-				<li><a href="../science/science.html">Science</a></li>
-				<li><a href="../../general/login.html">Login</a></li>
-				 
-			</ul>
+		<div id="container">
 
-		</div>
-	</body>
-	<header class="Header">
-		<strong>History</strong>
-	</header>
+      <div id="menuToggle">
+        <input type="checkbox" />
+    
+          <span></span>
+          <span></span>
+          <span></span>
+
+        <ul id="menu">
+          <a href="#"><li><strong>Home</strong></li></a>
+          <button class="accordion"><li><strong>Subjects</strong></li></button>
+            <div class="panel">
+                <ul>
+                  <a href="../computerscience/computerscience.html"><li><strong>Computer Science</strong></li></a>
+                  <a href="../english/english.html"><li><strong>English</strong></li></a>
+                  <a href="../foreignlanguage/foreignlanguage.html"><li><strong>Foreign Language</strong></li></a>
+                  <a href="../history/history.html"><li><strong>History</strong></li></a>
+                  <a href="../math/math.html"><li><strong>Math</strong></li></a>
+                  <a href="../science/science.html"><li><strong>Science</strong></li></a>
+                </ul>
+            </div>
+          <a href="#"><li><strong>About</strong></li></a>
+          <a href="#"><li><strong>Contact</strong></li></a>
+        </ul>
+    </div>
+	<div class="topbar">
+    <div id="scroll">
+      <img src="../../img/minerva.png" width="290" height="130" class="center">
+    </div>
+  
+<script src="../../javascript/sidebar.js"></script>
 	<body background="../../img/history.jpeg" ></body>
 </html>
