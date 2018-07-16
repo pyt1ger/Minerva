@@ -9,13 +9,29 @@
 
 body{
 	font-family: GeosansLight;
+	margin: 0;
+	padding: 0;
 }
 
 a{
 	font-family: GeosansLight;
 	color: #cc4747;
 	text-decoration: none;
+}
 
+body .current a{
+ 	color:#d8d8d8;
+ 	text-decoration: none;
+}
+
+section{
+	width: 100%;
+	padding: 0 7%;
+	display: table;
+	margin: 0;
+	max-width: none;
+	background-color: #373B44;
+	height: 90vh;
 }
 
 .accordion {
@@ -44,9 +60,9 @@ a{
     font-size: 20px;
 }
 
-body .current a{
- 	color:#d8d8d8;
- 	text-decoration: none;
+.content{
+	display: table-cell;
+	vertical-align: middle;
 }
 
 .pmain{
@@ -92,8 +108,7 @@ body .current a{
 	border-radius: 20px;
 }
 .topbar{
-	
-	height: 130px;
+	height: 100px;
 }
 .center{
     display: block;
@@ -101,7 +116,7 @@ body .current a{
     margin-right: auto;
 }
 #scroll{
-	position: fixed;
+	position: absolute;
 	left:0;
 	top:0;
 	float:left;
@@ -109,6 +124,7 @@ body .current a{
 	overflow: hidden;
 	background-color:#333333;
 	padding-top:0px;
+
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
