@@ -1,37 +1,12 @@
-.homepage {
-	background-image: linear-gradient(#F8DABF, #EC5563);
-	min-height: 100%;
-	background-attachment: fixed;
+html {
+	height: 100%;
+	box-sizing: border-box;
 }
 
-.homeHeader {
-	position: static;
-	padding-top:20px;
-}
-
-.indexMain {
-	position: relative;
-	padding-top: 100px;
-	width: 100%;
-	height: auto;
-}
-
-.hmain {
-	position: relative;
-	top: -95px;
-	text-align: center;
-	font-family: GeosansLight;
-	font-size: 100px;
-	color: #000;
-}
-
-.pmain {
-	top: -105px;
-	position: relative;
-	text-align: center;
-	font-family: GeosansLight;
-	font-size: 35px;
-	color: #000;
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
 }
 
  @font-face{
@@ -44,6 +19,9 @@
  	padding:0px;
  	margin:0;
  	background-color:#cdd0d6; /*cc4747*/
+ 	position: relative;
+ 	padding-bottom: 6rem;
+ 	min-height: 100%
  }
 body p{
 	margin-bottom: 20px;
@@ -158,15 +136,13 @@ header .current a{
 #boxes .box img{
 	width: 90px;
 }
- footer{
-    left: 0px;
-    right:0px;
-    bottom: 0px;
- 	padding: 10px;
- 	color: #ffffff;
- 	background: #cc4747;
- 	text-align: center;
- 	position: fixed;
-
- }
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #cc4747;
+  text-align: center;
+}
 
