@@ -139,6 +139,14 @@ header .current a{
 #boxes .box img{
 	width: 90px;
 }
+
+#boxes a{
+		color: #000000;
+	text-decoration:none;
+	text-transform: uppercase;
+	font-weight: 900;
+}
+
 .footer {
   position: absolute;
   right: 0;
