@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
 html {
 	height: 100%;
 	box-sizing: border-box;
@@ -9,13 +11,11 @@ html {
   box-sizing: inherit;
 }
 
- @font-face{
- 	font-family: GeoSansLight;
- 	src: url('./fonts/GeosansLight.tff');
- }
-
  body{
- 	font: 15px/1.5 GeoSansLight, Arial;
+ 	font-size: 100%;
+ 	font-family: 'Montserrat';
+ 	letter-spacing: 1px;
+ 	line-height: 1.4;
  	padding:0px;
  	margin:0;
  	background-color:#cdd0d6; /*cc4747*/
@@ -39,7 +39,8 @@ body p{
 .button_1{
 	height:38px;
 	background:#cc4747;
-	font: 16px/1.5 GeoSansLight, Arial;
+	size: 16px/1.5;
+	font-family: 'IBM Plex Serif', cursive;
 	font-weight: bold;
 	border: 0;
 	text-align: center;
@@ -120,18 +121,20 @@ header .current a{
 	padding: 4px;
 	height:25px;
 	width:250px;
-	font: 16px/1.5 GeoSansLight, Arial;
+	font: 16px/1.5 Nanum+Gothic, Arial;
 	font-style: italic;
 }
 /* 	S U B J E C T S */
 #boxes{
 	margin-top: 30px;
+	margin-left: 100px;
 }
 #boxes .box{
 	float: left;
 	width: 30%;
 	text-align: center;
 	padding: 10px;
+	margin-right: 20px;
 }
 #boxes .box img{
 	width: 90px;

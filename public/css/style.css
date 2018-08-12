@@ -1,20 +1,17 @@
-@font-face{
-	font-family: 'GeosansLight';
-	src: url('../fonts/GeosansLight.tff');
-}
+
 * {
 	margin: 0;
 	padding: 0;
 }
 
 body{
-	font-family: GeosansLight;
+	font-family: Nanum+Gothic, Arial;
 	margin: 0;
 	padding: 0;
 }
 
 a{
-	font-family: GeosansLight;
+	font-family: Montserrat;
 	color: #cc4747;
 	text-decoration: none;
 }
