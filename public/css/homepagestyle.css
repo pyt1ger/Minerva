@@ -40,7 +40,7 @@ body p{
 	height:38px;
 	background:#cc4747;
 	size: 16px/1.5;
-	font-family: 'IBM Plex Serif', cursive;
+	font-family: 'Montserrat', cursive;
 	font-weight: bold;
 	border: 0;
 	text-align: center;
@@ -121,7 +121,7 @@ header .current a{
 	padding: 4px;
 	height:25px;
 	width:250px;
-	font: 16px/1.5 Nanum+Gothic, Arial;
+	font: 16px/1.5,-- Montserrat, Arial;
 	font-style: italic;
 }
 /* 	S U B J E C T S */
