@@ -20,11 +20,11 @@ html {
  	margin:0;
  	background-color:#cdd0d6; /*cc4747*/
  	position: relative;
- 	padding-bottom: 6rem;
- 	min-height: 100%
+ 	padding-bottom: 9rem;
+ 	min-height: 100%;
  }
 body p{
-	margin-bottom: 20px;
+	margin-bottom: 0px;
 }
  /* G L O B A L */
 .container{ /*class container*/
