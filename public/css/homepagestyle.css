@@ -158,5 +158,5 @@ header .current a{
   padding: 1rem;
   background-color: #cc4747;
   text-align: center;
+  min-width: 100%;
 }
-
