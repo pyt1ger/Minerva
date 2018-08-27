@@ -119,9 +119,10 @@ header .current a{
 }
 #newsletter input[type="email"]{
 	padding: 4px;
-	height:25px;
-	width:250px;
+	height:39.5px;
+	width:200px;
 	font: 16px/1.5,-- Montserrat, Arial;
+	padding-left: 10px;
 	font-style: italic;
 }
 /* 	S U B J E C T S */
