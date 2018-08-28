@@ -33,6 +33,12 @@ body p{
 	overflow:hidden;
 	padding-top: 0px;
 }
+.subjectcontainer{ /*class container*/
+	width:100%;
+	margin:auto;
+	overflow:hidden;
+	padding-top: 0px;
+}
  ul{
 	margin:0;
 	padding:0;
@@ -129,12 +135,13 @@ header .current a{
 /* 	S U B J E C T S */
 #boxes{
 	margin-top: 30px;
-	margin-left: 10vw;
+	margin-left: 0vw;
 	margin-bottom: 0px;
+	width: 100%;
 }
 #boxes .box{
 	float: left;
-	width: 30%;
+	width: 33%;
 	text-align: center;
 	padding: 10px;
 	
@@ -144,7 +151,9 @@ header .current a{
 #boxes .box img{
 	width: 90px;
 }
-
+#boxes .box p{
+	text-align: center;
+}
 #boxes a{
 		color: #000000;
 	text-decoration:none;
