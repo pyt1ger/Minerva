@@ -129,7 +129,7 @@ header .current a{
 /* 	S U B J E C T S */
 #boxes{
 	margin-top: 30px;
-	margin-left: 100px;
+	margin-left: 10vw;
 	margin-bottom: 0px;
 }
 #boxes .box{
@@ -137,7 +137,9 @@ header .current a{
 	width: 30%;
 	text-align: center;
 	padding: 10px;
-	margin-right: 20px;
+	
+	margin-right: 0px;
+	position: relative;
 }
 #boxes .box img{
 	width: 90px;
@@ -158,5 +160,25 @@ header .current a{
   padding: 1rem;
   background-color: #cc4747;
   text-align: center;
+  min-width: 100%;
+}
+}
+html {
+    min-height: 100%;
+}
+body {
+    min-height: 100%;
+}
+p{
+	max-width: 100%;
 }
 
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
+.responsive {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
