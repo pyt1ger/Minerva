@@ -13,8 +13,11 @@ body {
   font-size: 18px;
 }
 
+
+
 .person {
-  width: 600px;
+  min-width: 328px;
+  max-width: 75vw;
   padding: 70px 0 0 230px;
   min-height: 200px;
   margin: auto;
