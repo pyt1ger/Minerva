@@ -82,6 +82,9 @@ header li{
 header #branding{
 	float:left;
 }
+#branding img{
+	margin:auto;
+}
  header nav{
  	margin-top: 45px;
  	float:right;
