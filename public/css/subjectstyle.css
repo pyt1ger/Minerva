@@ -33,6 +33,15 @@ a{
   position: relative;
   width: 80vw;
 }
+.quizlet{
+  background: #d1d1d1;
+  border-radius: 2px;
+  display: inline-block;
+  height: 90px;
+  margin: 1rem;
+  position: relative;
+  width: 80vw;
+}
 .banner{
   background: #d1d1d1;
   border-radius: 2px;
